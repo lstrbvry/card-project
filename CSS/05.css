@@ -1,0 +1,81 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	/* font-family: arial; */
+}
+img {
+	width: 100%;
+	display: block;
+	min-height: auto;
+	object-fit: cover;
+}
+.content {
+	box-shadow: 0 0 5px 0.15px #333;
+	margin: 5px;
+	padding: 21px;
+	transition: margin 0.15s;
+}
+.content:hover {
+	cursor: pointer;
+}
+.img-container {
+}
+.description {
+	width: 100%;
+	text-align: center;
+	margin-block: 8px;
+}
+.name {
+	font-size: 21px;
+	font-weight: bold;
+}
+.lore {
+	margin-block: 13px;
+	font-size: 21px;
+	font-style: italic;
+	min-height: 55px;
+}
+
+.stats {
+	width: 233px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin-inline: auto;
+	margin-top: 21px;
+	border: 1px solid black;
+	border-radius: 13px;
+	text-align: center;
+	padding: 13px;
+}
+
+.stats p:nth-child(even) {
+}
+.stats p:nth-child(odd) {
+}
+
+.demon {
+	text-shadow: crimson 0 0 1px;
+	color: darkred;
+}
+.demon:hover {
+	text-shadow: darkred 0 0 1px;
+	color: crimson;
+}
+.flora {
+	text-shadow: gold 0 0 1px;
+	color: darkgoldenrod;
+}
+.flora:hover {
+	text-shadow: gold 0 0 1px;
+	color: goldenrod;
+}
+.human {
+	text-shadow: black 1px 1px 1px, black -1px 1px 1px, black 1px -1px 1px,
+		black -1px -1px 1px;
+	color: white;
+}
+.human:hover {
+	text-shadow: black 0 0 2px;
+	color: black;
+}

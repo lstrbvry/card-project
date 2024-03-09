@@ -1,0 +1,41 @@
+.main-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	max-width: fit-content;
+	margin-inline: auto;
+}
+
+.dem:hover {
+	/* 	background-color: hsla(348, 83%, 47%, 0.5);
+	color: white; */
+	box-shadow: 0 0 1px 3px crimson;
+	margin-inline: 8px;
+}
+
+.flo:hover {
+	/* 	background-color: rgba(144, 238, 144, 0.5); */
+	box-shadow: 0 0 1px 3px lightgreen;
+	margin-inline: 8px;
+}
+.hum:hover {
+	/* 	background-color: rgba(135, 206, 250, 0.5); */
+	box-shadow: 0 0 1px 3px lightskyblue;
+	margin-inline: 8px;
+}
+
+@media (max-width: 852px) {
+	.main-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		max-width: fit-content;
+		margin-inline: auto;
+	}
+}
+@media (max-width: 629px) {
+	.main-container {
+		display: grid;
+		grid-template-columns: 1fr;
+		max-width: fit-content;
+		margin-inline: auto;
+	}
+}
